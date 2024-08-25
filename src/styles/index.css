@@ -21,7 +21,26 @@
 }
 #add-light-button:hover {
     background-color: #4121f8;
+    color: white;
 }
+
+#toggle-color-button {
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    left: 15px;
+    top: 70px;
+    font-weight: 600;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+#toggle-color-button:hover {
+    background-color: #ffbf00;
+    color: #1f1f1f;
+}
+
 
 #stoplight-container {
     height: 100%;
@@ -98,3 +117,4 @@ button {
     box-shadow: 0px 0px 40px 15px #4121f8c9;
     background-color: #4121f8;
 }
+

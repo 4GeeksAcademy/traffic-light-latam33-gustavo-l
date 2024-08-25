@@ -1,12 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-/* 
+#main-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #D9D9D9;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+#add-light-button{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-weight: 600;
+}
+#add-light-button:hover {
+    background-color: #4121f8;
+}
 
-*/
+#stoplight-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#stoplight--top {
+    margin-top: 120px;
+    margin-right: 15%;
+    height: 250px;
+    width: 110px;
+    border-radius: 8px;
+    background-color: #1f1f1f;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#stoplight--body {
+    margin-top: -10px;
+    margin-right: 15%;
+    height: 300px;
+    width: 20px;
+    background-color: #1f1f1f;
+}
+
+#stoplight--bottom {
+    height: 37px;
+    width: 100%;
+    background-color: #1f1f1f;
+}
+
+.stoplight-color-shadow {
+    width: 64px;
+    height: 45px;
+    background-color: #fff0;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: -2px;
+    box-shadow: 0px -20px 0 0 #000000;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    background-color: #747474;
+    border-radius: 50%; 
+    border: none;
+    position: relative; 
+}
+
+.stoplight-color-red {
+    box-shadow: 0px 0px 40px 15px #ff0000c9;
+    background-color: #ff0000;
+}
+
+.stoplight-color-yellow {
+    box-shadow: 0px 0px 40px 15px #ffff17c9;
+    background-color: #ffff17;
+}
+
+.stoplight-color-green {
+    box-shadow: 0px 0px 40px 15px #1eff27c9;
+    background-color: #1eff27;
+}
+
+.stoplight-color-purple {
+    box-shadow: 0px 0px 40px 15px #4121f8c9;
+    background-color: #4121f8;
+}
